@@ -27,7 +27,7 @@ implementation 'fr.classydev.NekoNya4J:nekonya4j:0.1.0'
 #### 📝 Example
 
 ```java
-import org.nekonya.NekoNya4J.NekoNya;
+import fr.classydev.NekoNya4J.NekoNya;
 
 public class Example {
     public static void main(String[] args) {
