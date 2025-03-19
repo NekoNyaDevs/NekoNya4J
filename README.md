@@ -2,7 +2,7 @@
 
 ### 📝 About
 
-NekoNya4J is a Java wrapper for the [NekoNya API](https://nekonya.classy.works).
+NekoNya4J is a Java wrapper for the [NekoNya API](https://docs.classydev.fr/nekonya).
 
 ### 📚 Installation
 
@@ -10,16 +10,16 @@ NekoNya4J is a Java wrapper for the [NekoNya API](https://nekonya.classy.works).
 
 ```xml
 <dependency>
-    <groupId>org.nekonya.NekoNya4J</groupId>
+    <groupId>fr.classydev</groupId>
     <artifactId>nekonya4j</artifactId>
-    <version>1.0.0</version>
+    <version>0.1.0</version>
 </dependency>
 ```
 
 #### 📦 Gradle
 
 ```groovy
-implementation 'org.nekonya.NekoNya4J:nekonya4j:1.0.0'
+implementation 'fr.classydev.NekoNya4J:nekonya4j:0.1.0'
 ```
 
 ### 📖 Usage
@@ -27,23 +27,12 @@ implementation 'org.nekonya.NekoNya4J:nekonya4j:1.0.0'
 #### 📝 Example
 
 ```java
-import org.nekonya.NekoNya4J.NekoNyaClient;
-import org.nekonya.NekoNya4J.NekoNyaInterface;
+import org.nekonya.NekoNya4J.NekoNya;
 
 public class Example {
     public static void main(String[] args) {
-        NekoNyaClient client = new NekoNyaClient();
-        System.out.println(client.neko());
-        // -> URL
-    }
-}
-
-// OR
-
-public class Example {
-    public static void main(String[] args) {
-        NekoNyaInterface client = NekoNyaInterface.create();
-        System.out.println(client.neko());
+        NekoNya client = new NekoNya();
+        System.out.println(client.getNeko());
         // -> URL
     }
 }
