@@ -19,7 +19,7 @@ NekoNya4J is a Java wrapper for the [NekoNya API](https://docs.classydev.fr/neko
 #### 📦 Gradle
 
 ```groovy
-implementation 'fr.classydev.NekoNya4J:nekonya4j:0.1.0'
+implementation 'fr.classydev:nekonya4j:0.1.0'
 ```
 
 ### 📖 Usage
